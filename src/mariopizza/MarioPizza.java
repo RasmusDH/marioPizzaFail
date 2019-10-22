@@ -5,6 +5,7 @@
  */
 package mariopizza;
 
+
 /**
  *
  * @author Rasmus
@@ -16,6 +17,12 @@ public class MarioPizza {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        pizzaTestData pizza1 = new pizzaTestData();
+        
+        
+        
+        
     }
     
 }
