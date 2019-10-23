@@ -91,25 +91,25 @@ public class pizzaTestData {
     @Override
     public String toString() {
         if(ingrediens1 != "" && ingrediens2 != "" && ingrediens3 != "" && ingrediens3 != "" && ingrediens4 != "" && ingrediens5 != "" && ingrediens6 != "") {
-            return "nummerP\u00e5Menu = " + nummerPåMenu + ", " + ingrediens1 + ", " + ingrediens2 + ", " + ingrediens3 + ", " + ingrediens4 + ", " + ingrediens5 + ", " + ingrediens6;
+            return nummerPåMenu + ", " + ingrediens1 + ", " + ingrediens2 + ", " + ingrediens3 + ", " + ingrediens4 + ", " + ingrediens5 + ", " + ingrediens6;
         }
         else if(ingrediens1 != "" && ingrediens2 != "" && ingrediens3 != "" && ingrediens3 != "" && ingrediens4 != "" && ingrediens5 != "") {
-            return "nummerP\u00e5Menu = " + nummerPåMenu + ", " + ingrediens1 + ", " + ingrediens2 + ", " + ingrediens3 + ", " + ingrediens4 + ", " + ingrediens5;
+            return nummerPåMenu + ", " + ingrediens1 + ", " + ingrediens2 + ", " + ingrediens3 + ", " + ingrediens4 + ", " + ingrediens5;
         }
         else if(ingrediens1 != "" && ingrediens2 != "" && ingrediens3 != "" && ingrediens3 != "" && ingrediens4 != "") {
-            return "nummerP\u00e5Menu = " + nummerPåMenu + ", " + ingrediens1 + ", " + ingrediens2 + ", " + ingrediens3 + ", " + ingrediens4;
+            return nummerPåMenu + ", " + ingrediens1 + ", " + ingrediens2 + ", " + ingrediens3 + ", " + ingrediens4;
         }
         else if(ingrediens1 != "" && ingrediens2 != "" && ingrediens3 != "" && ingrediens3 != "") {
-            return "nummerP\u00e5Menu = " + nummerPåMenu + ", " + ingrediens1 + ", " + ingrediens2 + ", " + ingrediens3;
+            return nummerPåMenu + ", " + ingrediens1 + ", " + ingrediens2 + ", " + ingrediens3;
         }
         else if(ingrediens1 != "" && ingrediens2 != "") {
-            return "nummerP\u00e5Menu = " + nummerPåMenu + ", " + ingrediens1 + ", " + ingrediens2;
+            return nummerPåMenu + ", " + ingrediens1 + ", " + ingrediens2;
         }
         else if(ingrediens1 != "") {
-            return "nummerP\u00e5Menu = " + nummerPåMenu + ", " + ingrediens1;
+            return nummerPåMenu + ", " + ingrediens1;
         }
         else {
-            return "pizzaTestData \n" + "nummerP\u00e5Menu = " + nummerPåMenu + "" + ingrediens1 + "" + ingrediens2 + "" + ingrediens3 + "" + ingrediens4 + "" + ingrediens5 + "" + ingrediens6;
+            return nummerPåMenu + "" + ingrediens1 + "" + ingrediens2 + "" + ingrediens3 + "" + ingrediens4 + "" + ingrediens5 + "" + ingrediens6;
         }
     }
     
