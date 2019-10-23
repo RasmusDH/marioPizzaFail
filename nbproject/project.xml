@@ -3,7 +3,11 @@
     <type>org.netbeans.modules.java.j2seproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
+<<<<<<< HEAD
             <name>Mario</name>
+=======
+            <name>marioPizza</name>
+>>>>>>> bb12aa0b790967f9a64124564dddab9927735d38
             <source-roots>
                 <root id="src.dir"/>
             </source-roots>
